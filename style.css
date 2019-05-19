@@ -1,1 +1,122 @@
-/* Your CSS styles go here */
+  body {
+      background-color: white;
+  }
+  
+  h1 {
+    color: darkgreen;
+  }
+  
+
+  h2 {
+    color: orange;
+  }
+  
+  #description {
+    color: darkgreen
+ }
+  
+  /* Combination Example: Group Selectors */
+  
+  span, .lightText {
+    font-weight: 200;
+    color: darkgray;
+  }
+  
+  
+  /* Combination Example: Element with class */
+  
+  p.main {
+    color: purple;
+  }
+  
+  
+  /* Combination Example: Child Selector */
+  
+  article>p {
+    color: red
+  }
+  
+  
+  /* Combination Example: Descendant Selector */
+  
+  .desc p {
+    color: green;
+  }
+  
+  
+  /* Pseudo Class Example */
+  
+  .pseudoClassExample {
+    margin-top: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+  }
+  
+  .pseudoClassExample:hover {
+    background-color: orange;
+    color: white;
+  }
+
+  #experience {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #experience td, #experience th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #experience tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #experience tr:hover {background-color: #ddd;}
+  
+  #experience th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  a:link, a:visited {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover, a:active {
+    background-color: #4CAF50;
+  }
+
+  input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  

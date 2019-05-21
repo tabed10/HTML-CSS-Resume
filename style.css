@@ -15,58 +15,16 @@
     color: darkgreen
  }
   
-  /* Combination Example: Group Selectors */
   
-  span, .lightText {
-    font-weight: 200;
-    color: darkgray;
-  }
-  
-  
-  /* Combination Example: Element with class */
-  
-  p.main {
-    color: purple;
-  }
-  
-  
-  /* Combination Example: Child Selector */
-  
-  article>p {
-    color: red
-  }
-  
-  
-  /* Combination Example: Descendant Selector */
-  
-  .desc p {
-    color: green;
-  }
-  
-  
-  /* Pseudo Class Example */
-  
-  .pseudoClassExample {
-    margin-top: 15px;
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
-  }
-  
-  .pseudoClassExample:hover {
-    background-color: orange;
-    color: white;
-  }
-
   #experience {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: Arial;
     border-collapse: collapse;
-    width: 100%;
+    
   }
   
   #experience td, #experience th {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 10px;
   }
   
   #experience tr:nth-child(even){background-color: #f2f2f2;}
@@ -91,7 +49,7 @@
   }
 
   a:hover, a:active {
-    background-color: #4CAF50;
+    background-color: #45a049;
   }
 
   input[type=text], select {

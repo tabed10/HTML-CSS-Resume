@@ -3,7 +3,7 @@
 
 ---
 
-### Task 1 / Assignment 1 (Lecture 3 - HTML)
+### Task 1 / Classwork 1 (Lecture 3 - HTML)
 ##### Just HTML & Content
 
 * Create your own resume using only HTML
@@ -22,7 +22,7 @@ Work & submit in a branch names **html**
 
 ---
 
-### Task 2 / Assignment 2 (Lecture 4 - CSS)
+### Task 2 / Classwork 2 (Lecture 4 - CSS)
 ##### Style your HTML resume using CSS
 
 * Unleash your creativity
@@ -33,7 +33,7 @@ Work & submit in a branch names **css**
 
 ---
 
-### Task 3 / Assignment 3 (Lecture 5 - Responsive Design)
+### Task 3 / Classwork 3 (Lecture 5 - Responsive Design)
 ##### Make your resume site responsive using media queries
 
 * Use media queries to make your site responsive for mobile devices
